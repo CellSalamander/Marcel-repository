@@ -1,0 +1,18 @@
+Question 2:
+
+NLP's Application in Predictive Text
+The way people engage with technology has been completely transformed by natural language processing (NLP), especially in the area of predictive text.
+NLP-powered predictive text is an AI-powered tool that makes word or phrase recommendations based on user input. It is extensively utilized in word processing software,
+email clients, smartphones, and search engines to improve writing effectiveness and communication.
+
+The capacity of NLP-powered predictive text to learn from user behavior is one of its main advantages. Predictive text gets better over time by examining context,
+commonly used words, and typing patterns to provide recommendations that are both tailored and contextually relevant. This improves productivity and drastically lowers typing effort,
+particularly in multilingual and professional contexts.
+
+Predictive text makes communication easier for people with disabilities or low typing skills. By offering suggestions for vocabulary and grammar, it also facilitates language learning.
+Additionally, companies use this technology in virtual assistants and chatbots for customer service to provide real-time responses, increasing customer efficiency and engagement.
+
+Predictive text has drawbacks despite its benefits. Because of the limitations of the training data, it occasionally produces biased or inaccurate recommendations.
+Furthermore, as predictive text systems examine user input, privacy issues surface, necessitating robust data security protocols.
+Future developments in NLP, especially in the areas of deep learning and transformer models, will improve the contextual awareness and accuracy of predictive text.
+Predictive text will be crucial in influencing human-computer interaction as AI develops further, improving the ease and intuitiveness of digital communication.

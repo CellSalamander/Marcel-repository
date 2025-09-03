@@ -1,0 +1,8 @@
+Question 1:
+
+a) Email filtering: Text Classification, this allows email systems to classify emails like spam , promotions and importante
+based on the context of the email.
+
+b) Automated Essay Scoring: Automatic summarisation, this allows automated scoring based of of the writing quality.
+
+c) Smart assistant: Question Answering and or Dialogue Systems, these systems can interpret natural languege and generate a response.
