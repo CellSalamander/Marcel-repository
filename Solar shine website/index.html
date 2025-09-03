@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar Shine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap" rel="stylesheet">
+    <script defer src="main.js"></script>
+</head>
+<body>
+    <div class="navbar">
+        <img src="/images/logo.jpg" alt="" id="imgLogo">
+        <h1 id="title">Solar Shine</h1>
+        <nav class="navbar_container">
+            <ul class="navbar_links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#info">Why clean solar panels</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+            </ul>
+            <button id="btnContact">Contact us</button>
+        </nav>
+    </div>
+
+    <div class="home">
+        <div class="home_info">
+        <h2>Welcome to Solar Shine</h2>
+        <p>Your trusted partner in solar energy solutions.</p>
+        </div>
+        <img src="/images/solar-panel-cleaning-main.jpg" alt="Solar Panels" class="hero-image">
+    </div>
+
+    <div class="about">
+        <h2>About Us</h2>
+        <div class="slideshow-container">
+            <div class="slideshow-info">
+                <h3 id="slideHeading">Meet the team</h3>
+                <p id="slideshow-text">First slide text</p>
+            </div>
+            
+            <img id="slideshow-image" src="slideimage1.jpg" alt="Slide 1" width="300">
+            <img src="images/arrow.png" alt="" id="next-btn">
+        </div>
+    </div>
+
+    <div class="info">
+        <h2>Why Clean Solar Panels?</h2>
+        <div class="info-blocks-section">
+            <div class="info-block">
+                <p>Dirty solar panels produce less electricity due to blocked sunlight.</p>
+                <img src="images/electricityDown.jpg" alt="">
+            </div>
+            <div class="info-block">
+                <p>Cleaning improves their efficiency and performance.</p>
+                <img src="images/electricityUp.jpg" alt="">
+            </div>
+            <div class="info-block">
+                <p>It helps extend the lifespan of the panels.</p>
+                <img src="images/lifespan.jpg" alt="">
+            </div>
+            <div class="info-block">
+                <p>Regular maintenance protects your investment and saves money long-term.</p>
+                <img src="images/moneyUp.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+    <div class="reviews">
+        <h2>Customer Reviews</h2>
+        <div class="reviews-section">
+            <div class="review-block">
+                <img src="" alt="" class="review-pfp">
+                <div class="review-info">
+                    <h4 class="review-name">Karen L., Homeowner in San Diego ⭐⭐⭐⭐⭐</h4>
+                    <p class="review-text">“I hadn’t cleaned my panels in over a year and didn’t realize how much it was affecting my energy production. After the cleaning, I immediately saw an increase in output. The team was on time, polite, and super thorough. Highly recommended!”</p>
+                </div>
+            </div>
+            <div class="review-block">
+                <img src="" alt="" class="review-pfp">
+                <div class="review-info">
+                    <h4 class="review-name">John Smith ⭐⭐⭐⭐⭐</h4>
+                    <p class="review-text">“Excellent service and support.”</p>
+                </div>
+            </div>
+            <div class="review-block">
+                <img src="" alt="" class="review-pfp">
+                <div class="review-info">
+                    <h4 class="review-name">Daniel M., Small Business Owner ⭐⭐⭐⭐⭐</h4>
+                    <p class="review-text">“This is the second time I’ve hired them to clean the panels on our office building. They're always professional, show up when they say they will, and do a spotless job. It’s a small investment that pays off in the long run.”</p>
+                </div>
+            </div>
+            <div class="review-block">
+                <img src="" alt="" class="review-pfp">
+                <div class="review-info">
+                    <h4 class="review-name">Priya R., Homeowner ⭐⭐⭐⭐☆</h4>
+                    <p class="review-text">“Very happy with the service. Scheduling was easy, and they explained everything clearly. The only reason I’m giving 4 stars instead of 5 is because they arrived about 10 minutes late—but they did call ahead. Will definitely use them again.”</p>
+                </div>
+            </div>
+     
+        </div>
+    </div>
+
+    <div class="contact">
+        <div class="BeforeAndAfter">
+            <h3>Before and After</h3>
+            <img src="" alt="">
+        </div>
+        <div class="ContactInfo">
+            <h2>Contact Us</h2>
+            <form id="ContactForm">
+                <div class="ContactDetails">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="surname">Surname:</label>
+                    <input type="text" id="surname" name="surname" required>
+                    <label for="phone">Phone number:</label>
+                    <input type="text" id="phone" name="phone" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="address">Address:</label>
+                    <input type="text" id="address" name="address" required>
+                </div>
+                <div class="message">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    
+</body>
+</html>
